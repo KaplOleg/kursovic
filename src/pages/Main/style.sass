@@ -1,0 +1,69 @@
+@import "../../style/variables"
+
+.main
+    min-height: 600px
+    background-color: $bg-color
+    padding: 40px 0
+    &_title
+        width: 644px
+        font-weight: 700
+        font-size: 50px
+        line-height: 59px
+        color: $main-color
+    &_subtitle
+        width: 464px
+        font-weight: 300
+        font-size: 24px
+        line-height: 28px
+        color: #ffffffaa
+        margin-top: 25px
+    &_image
+        width: 450px
+        img
+            width: 100%
+            height: 100%
+
+.rooms_live
+    min-height: 365px
+    padding: 40px 0
+    background-color: $dark-color
+    &_header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_title
+            font-weight: 600
+            font-size: 40px
+            line-height: 47px
+            color: $main-color
+    &_line
+        width: 100%
+        height: 3px
+        background: $main-color
+        border-radius: 15px
+        margin-top: 15px
+    &_list
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+        align-items: center
+        margin-top: 30px
+        &_item
+            width: 316px
+            min-height: 150px
+            border-radius: 15px
+            background: $main-color
+            padding: 15px
+            margin: 0px 30px 15px 0 
+            &_title
+                font-weight: 600
+                font-size: 24px
+                color: $dark-color
+            &_id
+                word-wrap: break-word
+                font-weight: 400
+                font-size: 18px
+                line-height: 21px
+                color: $bg-color
+                margin-top: 10px
+                
